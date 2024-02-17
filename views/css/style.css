@@ -170,9 +170,35 @@ a {
   margin-bottom: 30px;
 }
 
-/* page policy */
-.container-policy {
+/* page artikel*/
+.container-article {
   padding: 10px 20px;
+}
+
+.article-title {
+  padding-bottom: 20px;
+}
+
+.container-article p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.container-article ol {
+  list-style-type: decimal;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+.container-article ol li {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.container-article ol li:last-child {
+  margin-bottom: 0;
 }
 /* responsive untuk mobile */
 @media (max-width: 768px) {
